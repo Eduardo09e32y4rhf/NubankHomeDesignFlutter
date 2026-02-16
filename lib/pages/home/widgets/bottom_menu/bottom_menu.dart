@@ -44,16 +44,8 @@ class _BottomMenuState extends State<BottomMenu> {
                     scrollDirection: Axis.horizontal,
                     children: <Widget>[
                       ItemMenuBottom(
-                        icon: Icons.person_add,
-                        text: 'indicar amigos',
-                      ),
-                      ItemMenuBottom(
                         icon: Icons.phone_android,
                         text: 'Recarga de celular',
-                      ),
-                      ItemMenuBottom(
-                        icon: Icons.chat,
-                        text: 'Cobrar',
                       ),
                       ItemMenuBottom(
                         icon: Icons.monetization_on,
@@ -62,10 +54,6 @@ class _BottomMenuState extends State<BottomMenu> {
                       ItemMenuBottom(
                         icon: Icons.move_to_inbox,
                         text: 'Depositar',
-                      ),
-                      ItemMenuBottom(
-                        icon: Icons.mobile_screen_share,
-                        text: 'Transferir',
                       ),
                       ItemMenuBottom(
                         icon: Icons.format_align_center,
