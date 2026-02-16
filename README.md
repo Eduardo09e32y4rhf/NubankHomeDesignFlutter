@@ -1,35 +1,50 @@
-<h1 align="center"> Nubank Home Design Flutter</h1>
+# Nubank Home Design Flutter (Solo Mode)
 
-</h1>
-<p align="center">
-   <a href="https://github.com/RenatoLucasMota">
-    </h1>Github</h1>
-  </a>
-   <a href="https://www.youtube.com/channel/UCd-vLa_qcKve3CsDFlYiygA">
-    </h1>Youtube</h1>
-  </a>
- 
-</p>
+This project is a Flutter implementation of the Nubank app's home screen. It replicates the UI and interactions of the popular Brazilian fintech app.
 
+**Note:** This version has been modified to be a "Solo Mode" experience. Social features involving other participants ("Refer friends", "Charge", "Transfer") have been removed from the interface.
 
-## 📱 Gif #
+## 📱 Features
 
+*   **Splash Screen:** Animated Nubank logo on startup.
+*   **Home Screen:**
+    *   **Draggable Cards:** A PageView with custom physics and animations for swiping between cards (Credit Card, Account Balance, Rewards).
+    *   **Animated Menus:**
+        *   **Top Menu:** Access to profile and app settings by pulling down the card view or tapping the top bar.
+        *   **Bottom Menu:** Horizontal scrollable list of actions (Mobile Recharge, Loans, Deposit, Limit Adjustment, Pay, Block Card).
+    *   **Interactive Elements:** Eye icon to toggle balance visibility, animated transitions.
 
-![]()
-![]()
+## 🛠 Tech Stack
 
-## 🖥 Flutter Tutorial
-All Flutter Tutorials plus additional Code and shorter posts can be found on the (https://www.youtube.com/channel/UCd-vLa_qcKve3CsDFlYiygA). 
+*   [Flutter](https://flutter.dev/) - UI Toolkit for building native apps.
+*   Dart - The programming language used.
 
-## ⚙️ Built with Amazing Tools
-* [Flutter](https://flutter.dev/) - Beautiful native apps in record time.
-* [Android Studio](https://developer.android.com/studio/index.html/) - Tools for building Awesome apps on every type of Android device.
-* [Visual Studio Code](https://code.visualstudio.com/) - Code editing. Redefined.
+## 🚀 How to Run
 
+1.  Clone this repository.
+2.  Navigate to the project directory.
+3.  Install dependencies:
+    ```bash
+    flutter pub get
+    ```
+4.  Run the app:
+    ```bash
+    flutter run
+    ```
 
-## 🤝 Show Some Support #
-If you liked the app give this repo a ⭐️ 
+## 📝 Recent Changes (Solo Mode)
 
+The following features were removed from the bottom menu to focus on a solo user experience:
+*   Indicar amigos (Refer friends)
+*   Cobrar (Charge)
+*   Transferir (Transfer)
 
-## 🐞 Bugs/Requests #
-If you encounter any problems feel free to open an issue. If you feel the library is missing a feature, please raise a ticket on Github and I'll look into it. Pull request are also welcome.
+## 🤝 Original Project Credits
+
+This project is based on a tutorial. Check out the original author:
+*   [Github](https://github.com/RenatoLucasMota)
+*   [Youtube Channel](https://www.youtube.com/channel/UCd-vLa_qcKve3CsDFlYiygA)
+
+## 🐞 Bugs/Requests
+
+If you encounter any problems, feel free to open an issue.
